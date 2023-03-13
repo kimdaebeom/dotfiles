@@ -1,0 +1,18 @@
+[global_config]
+  title_transmit_bg_color = "#73d216"
+[keybindings]
+  split_vert = <Primary><Shift>e
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
